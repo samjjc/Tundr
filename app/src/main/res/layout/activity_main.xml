@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Welcome to Tundr!" />
 
     <Button
         android:text="Start"
@@ -22,5 +22,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="168dp"
-        android:id="@+id/start" />
+        android:id="@+id/start"
+        android:onClick="GoToLocation"/>
 </RelativeLayout>
