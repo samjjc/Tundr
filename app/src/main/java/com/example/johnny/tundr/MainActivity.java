@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
     public void GoToLocation(View view){
         Intent startNewActivity = new Intent (this, ShowLocation.class);
         startActivity(startNewActivity);
+        finish();
     }
 }

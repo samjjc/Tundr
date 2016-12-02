@@ -17,5 +17,26 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="161dp"
-        android:id="@+id/showLocation" />
+        android:id="@+id/showLocation"/>
+        <!--android:onClick="GetLocation" !-->
+
+
+    <TextView
+        android:text="Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:id="@+id/Latitude" />
+
+    <TextView
+        android:text="Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Longitude"
+        android:layout_below="@+id/Latitude"
+        android:layout_alignStart="@+id/Latitude"
+        android:layout_marginTop="35dp" />
+
 </RelativeLayout>
