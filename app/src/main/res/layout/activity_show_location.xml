@@ -17,8 +17,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="161dp"
-        android:id="@+id/showLocation"/>
-        <!--android:onClick="GetLocation" !-->
+        android:id="@+id/showLocation"
+        android:onClick="GetLocation"/>
 
 
     <TextView
