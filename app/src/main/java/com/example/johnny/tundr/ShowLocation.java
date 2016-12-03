@@ -31,6 +31,7 @@ public class ShowLocation extends AppCompatActivity implements
     TextView latitude;
     TextView longitude;
     TextView time;
+    boolean mRequestingLocationUpdates;
 
 
     @Override
@@ -60,7 +61,14 @@ public class ShowLocation extends AppCompatActivity implements
 
     @Override
     public void onConnected(Bundle bundle) {
-        /*if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
+       // if (mRequestingLocationUpdates) {
+         //   startLocationUpdates();
+        //}
+    }
+
+    private void startLocationUpdates() {
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
             // here to request the missing permissions, and then overriding
@@ -72,9 +80,6 @@ public class ShowLocation extends AppCompatActivity implements
         }
         LocationServices.FusedLocationApi.requestLocationUpdates(
                 mGoogleApiClient, mLocationRequest, this);
-        /*if (mRequestingLocationUpdates) {
-            startLocationUpdates();
-        }*/
     }
 
     @Override
