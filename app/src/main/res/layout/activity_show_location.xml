@@ -11,14 +11,14 @@
     tools:context="com.example.johnny.tundr.ShowLocation">
 
     <Button
-        android:text="Show Location"
+        android:text="Add To Mongo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="161dp"
         android:id="@+id/showLocation"
-        android:onClick="GetLocation"/>
+        android:onClick="addDoc"/>
 
 
     <TextView

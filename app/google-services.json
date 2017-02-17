@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "47626127284",
+    "firebase_url": "https://tundr-f6d59.firebaseio.com",
+    "project_id": "tundr-f6d59",
+    "storage_bucket": "tundr-f6d59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47626127284:android:a014add3a5f2f2c9",
+        "android_client_info": {
+          "package_name": "com.example.johnny.tundr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47626127284-gp8at5n68gv4k016dl0t7bd0sbm43vou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.johnny.tundr",
+            "certificate_hash": "674B3D878F752861BE31754AE7F0F03E413063CF"
+          }
+        },
+        {
+          "client_id": "47626127284-f3cmfjnjogvugp86qjsabeifrb3l670i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd2H-ingJJIMMgJ7v-S7nFHWsb5z1ViDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47626127284-f3cmfjnjogvugp86qjsabeifrb3l670i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -21,7 +21,28 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="168dp"
+        android:layout_marginBottom="250dp"
         android:id="@+id/start"
         android:onClick="GoToLocation"/>
+
+    <Button
+        android:text="Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="168dp"
+        android:id="@+id/map"
+        android:onClick="GoToMap"/>
+    <Button
+        android:text="Add To Firebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:id="@+id/showLocation"
+        android:onClick="addData"/>
+
+
 </RelativeLayout>
